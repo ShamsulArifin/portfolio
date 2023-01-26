@@ -1,9 +1,9 @@
 import React from 'react';
 
-const FrontEnd = () => {
+const GameDev = () => {
   return (
     <div className='skills__content'>
-      <h3 className='skills__title'>Frontend Development</h3>
+      <h3 className='skills__title'>Game Developent</h3>
 
       <div className='skills__box'>
         <div className='skills__group'>
@@ -11,16 +11,7 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>HTML</h3>
-              <span className='skills__level'>Basic</span>
-            </div>
-          </div>
-
-          <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
-
-            <div>
-              <h3 className='skills__name'>CSS</h3>
+              <h3 className='skills__name'>Unreal Engine</h3>
               <span className='skills__level'>Advance</span>
             </div>
           </div>
@@ -29,16 +20,7 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>Javascript</h3>
-              <span className='skills__level'>Intermediate</span>
-            </div>
-          </div>
-
-          <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
-
-            <div>
-              <h3 className='skills__name'>Blueprint JS</h3>
+              <h3 className='skills__name'>Renpy</h3>
               <span className='skills__level'>Basic</span>
             </div>
           </div>
@@ -47,8 +29,26 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>XML</h3>
+              <h3 className='skills__name'>Mixamo</h3>
+              <span className='skills__level'>Advance</span>
+            </div>
+          </div>
+
+          <div className='skills__data'>
+            <i class='bx bx-badge-check'></i>
+
+            <div>
+              <h3 className='skills__name'>Adobe Photoshop</h3>
               <span className='skills__level'>Intermediate</span>
+            </div>
+          </div>
+
+          
+          <div className='skills__data'>
+            <i class='bx bx-badge-check'></i>
+
+            <div>
+              <h3 className='skills__name'>Quixel Bridge</h3>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>Bootstrap</h3>
+              <h3 className='skills__name'>Blender</h3>
               <span className='skills__level'>Basic</span>
             </div>
           </div>
@@ -67,16 +67,7 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>React JS</h3>
-              <span className='skills__level'>Intermediate</span>
-            </div>
-          </div>
-
-          <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
-
-            <div>
-              <h3 className='skills__name'>MUI</h3>
+              <h3 className='skills__name'>Metahuman</h3>
               <span className='skills__level'>Advance</span>
             </div>
           </div>
@@ -85,8 +76,17 @@ const FrontEnd = () => {
             <i class='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>Tachyons</h3>
-              <span className='skills__level'>Basic</span>
+              <h3 className='skills__name'>Quixel Mixer</h3>
+              <span className='skills__level'>Advance</span>
+            </div>
+          </div>
+
+          <div className='skills__data'>
+            <i class='bx bx-badge-check'></i>
+
+            <div>
+              <h3 className='skills__name'>Adobe Illustrator</h3>
+              <span className='skills__level'>Advance</span>
             </div>
           </div>
         </div>
@@ -95,4 +95,4 @@ const FrontEnd = () => {
   );
 };
 
-export default FrontEnd;
+export default GameDev;
