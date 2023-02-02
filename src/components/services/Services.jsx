@@ -16,7 +16,7 @@ const Services = () => {
       <div className='services__container container grid'>
         <div className='services__content'>
           <div>
-            <i className='uil uil-web-grid services__icon'></i>
+            <i className='uil uil-browser services__icon'></i>
             <h3 className='services__title'>
               Software <br /> Developer
             </h3>
@@ -86,7 +86,7 @@ const Services = () => {
 
         <div className='services__content'>
           <div>
-            <i className='uil uil-arrow services__icon'></i>
+            <i className='uil uil-web-grid services__icon'></i>
             <h3 className='services__title'>
               Ui/Ux <br /> Designer
             </h3>
@@ -156,7 +156,7 @@ const Services = () => {
 
         <div className='services__content'>
           <div>
-            <i className='uil uil-edit services__icon'></i>
+            <i className='uil uil-icons services__icon'></i>
             <h3 className='services__title'>
               Game <br /> Developer
             </h3>
@@ -175,7 +175,10 @@ const Services = () => {
             }
           >
             <div className='services__modal-content'>
-              <i onClick={() => toggleTab(0)} className='uil uil-times services__modal-close'></i>
+              <i
+                onClick={() => toggleTab(0)}
+                className='uil uil-times services__modal-close'
+              ></i>
 
               <h3 className='services__modal-title'>Game Developer</h3>
               <p className='services__modal-description'>
