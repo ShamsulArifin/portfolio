@@ -44,13 +44,7 @@ const GameDev = () => {
           </div>
 
           
-          <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
 
-            <div>
-              <h3 className='skills__name'>Quixel Bridge</h3>
-            </div>
-          </div>
         </div>
 
         <div className='skills__group'>
