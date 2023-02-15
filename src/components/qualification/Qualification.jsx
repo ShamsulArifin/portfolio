@@ -50,13 +50,33 @@ const Qualification = () => {
             onClick={() => toggleTab(1)}
           >
             <div className='qualification__data'>
+              <div></div>
               <div>
-                <h3 className='qualification__title'>something</h3>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+              </div>
+              <div>
+                <h3 className='qualification__title'>Bachelor</h3>
                 <span className='qualification__subtitle'>
-                  something - Institute
+                  Bsc. In Computer Science & Engineering - Manarat International
+                  University
                 </span>
                 <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2021 - Present
+                  <i className='uil uil-calendar-alt'></i>2021
+                </div>
+              </div>
+            </div>
+
+            <div className='qualification__data'>
+              <div>
+                <h3 className='qualification__title'>
+                  Higher Secondary Certificate
+                </h3>
+                <span className='qualification__subtitle'>
+                  Science - Quality Education College
+                </span>
+                <div className='qualification__calendar'>
+                  <i className='uil uil-calendar-alt'></i>2015
                 </div>
               </div>
 
@@ -73,46 +93,14 @@ const Qualification = () => {
                 <span className='qualification__line'></span>
               </div>
               <div>
-                <h3 className='qualification__title'>something</h3>
+                <h3 className='qualification__title'>
+                  Secondary School Cirtificate
+                </h3>
                 <span className='qualification__subtitle'>
-                  something - Institute
+                  Science - Madrasa E Mohammadia Arabia
                 </span>
                 <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2020 - 2021
-                </div>
-              </div>
-            </div>
-
-            <div className='qualification__data'>
-              <div>
-                <h3 className='qualification__title'>something</h3>
-                <span className='qualification__subtitle'>
-                  something - Institute
-                </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2018 - 2020
-                </div>
-              </div>
-
-              <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
-              </div>
-            </div>
-
-            <div className='qualification__data'>
-              <div></div>
-              <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
-              </div>
-              <div>
-                <h3 className='qualification__title'>something</h3>
-                <span className='qualification__subtitle'>
-                something - Institute
-                </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2017 - 2018
+                  <i className='uil uil-calendar-alt'></i>2012
                 </div>
               </div>
             </div>
@@ -127,13 +115,34 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <div className='qualification__data'>
+              <div></div>
               <div>
-                <h3 className='qualification__title'>something</h3>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+              </div>
+              <div>
+                <h3 className='qualification__title'>
+                  Junior Software Engineer
+                </h3>
                 <span className='qualification__subtitle'>
-                  Microsoft - something
+                  Renssoft Solutions Ltd - Dhaka
                 </span>
                 <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2021 - Present
+                  <i className='uil uil-calendar-alt'></i>JUN 2021 - Present
+                </div>
+              </div>
+            </div>
+
+            <div className='qualification__data'>
+              <div>
+                <h3 className='qualification__title'>
+                  Unreal Engine Developer
+                </h3>
+                <span className='qualification__subtitle'>
+                  Opus Technology Ltd - Dhaka
+                </span>
+                <div className='qualification__calendar'>
+                  <i className='uil uil-calendar-alt'></i>NOV 2021 - APR 2022
                 </div>
               </div>
 
@@ -150,22 +159,28 @@ const Qualification = () => {
                 <span className='qualification__line'></span>
               </div>
               <div>
-                <h3 className='qualification__title'>something</h3>
+                <h3 className='qualification__title'>
+                  Unreal Engine Developer (Remote)
+                </h3>
                 <span className='qualification__subtitle'>
-                  Apple Inc - something
+                  Kaleido Soft - Croatia
                 </span>
                 <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2020 - 2021
+                  <i className='uil uil-calendar-alt'></i>JAN 2021 - NOV 2021
                 </div>
               </div>
             </div>
 
             <div className='qualification__data'>
               <div>
-                <h3 className='qualification__title'>something</h3>
-                <span className='qualification__subtitle'>Figma - something</span>
+                <h3 className='qualification__title'>
+                  Junior Python Programmer
+                </h3>
+                <span className='qualification__subtitle'>
+                  Crystal Technology Bangladesh Ltd - Dhaka
+                </span>
                 <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2018 - 2020
+                  <i className='uil uil-calendar-alt'></i>APR 2020 - NOV 2021
                 </div>
               </div>
 
