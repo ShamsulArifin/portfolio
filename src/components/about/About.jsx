@@ -17,8 +17,9 @@ const About = () => {
 
           <p className='about__description'>
             Software developer specializing in machine learning and game
-            development. Experienced with Python based ERP, Javascript based
-            dynamic web projects, front-end & back-end development.
+            development, game mechanics. Experienced with Unreal Engine based
+            Game Development, Python based ERP, Javascript based dynamic web
+            projects, front-end & back-end development.
           </p>
 
           <a download='' href={CV} className='button button--flex'>
@@ -48,7 +49,6 @@ const About = () => {
                 fill='var(--container-color)'
               ></path>
             </svg>
-
           </a>
         </div>
       </div>
