@@ -128,7 +128,7 @@ const Qualification = () => {
                   Renssoft Solutions Ltd - Dhaka
                 </span>
                 <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>JUN 2021 - Present
+                  <i className='uil uil-calendar-alt'></i>JUN 2022 - JUN 2023
                 </div>
               </div>
             </div>
