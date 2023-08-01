@@ -122,21 +122,21 @@ export const projectsData = [
     id: 15,
     image: Work15,
     title: 'Domain of Anima',
-    category: 'WIP',
+    category: 'others',
     link: 'https://www.facebook.com/domainofanima',
   },
   {
     id: 16,
     image: Work16,
     title: 'Third Person Pacman',
-    category: 'WIP',
+    category: 'others',
     link: '',
   },
   {
     id: 17,
     image: Work17,
     title: 'Portfolio',
-    category: 'web',
+    category: 'others',
     link: 'https://portfolio-shamsularifin.vercel.app',
   },
   {
@@ -167,9 +167,6 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'web',
-  },
-  {
     name: 'game',
   },
   {
@@ -177,9 +174,6 @@ export const projectsNav = [
   },
   {
     name: 'mechanics',
-  },
-  {
-    name: 'WIP',
   },
   {
     name: 'others',
