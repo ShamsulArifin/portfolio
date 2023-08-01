@@ -20,11 +20,11 @@ const Footer = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a href='#services' className='footer__link'>
               Services
             </a>
-          </li>
+          </li> */}
         </ul>
 
         <div className='footer__social'>

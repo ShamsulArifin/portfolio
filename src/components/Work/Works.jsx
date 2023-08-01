@@ -3,9 +3,9 @@ import { projectsNav, projectsData } from './Data';
 import WorkItems from './WorkItems';
 
 const Works = () => {
-  const [item, setItem] = useState({ name: 'all' });
+  const [item, setItem] = useState({ name: 'game' });
   const [projects, setProjects] = useState([]);
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(2);
 
   useEffect(() => {
     if (item.name === 'all') {
