@@ -5,7 +5,7 @@ import WorkItems from './WorkItems';
 const Works = () => {
   const [item, setItem] = useState({ name: 'game' });
   const [projects, setProjects] = useState([]);
-  const [active, setActive] = useState(2);
+  const [active, setActive] = useState(1);
 
   useEffect(() => {
     if (item.name === 'all') {
