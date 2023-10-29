@@ -115,6 +115,25 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <div className='qualification__data'>
+              <div>
+                <h3 className='qualification__title'>
+                  Unreal Engine VR Game Developer
+                </h3>
+                <span className='qualification__subtitle'>
+                  Vinacts - South Korea
+                </span>
+                <div className='qualification__calendar'>
+                  <i className='uil uil-calendar-alt'></i>AUG 2023 - Current
+                </div>
+              </div>
+
+              <div>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+              </div>
+            </div>
+
+            <div className='qualification__data'>
               <div></div>
               <div>
                 <span className='qualification__rounder'></span>
