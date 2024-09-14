@@ -137,7 +137,7 @@ export const projectsData = [
     image: Work17,
     title: 'Portfolio',
     category: 'others',
-    link: 'https://portfolio-shamsularifin.vercel.app',
+    link: 'https://portfolio-eta-seven-57.vercel.app/',
   },
   {
     id: 18,
