@@ -16,10 +16,11 @@ const About = () => {
           <Info />
 
           <p className='about__description'>
-            Software developer specializing in machine learning and game
-            development, game mechanics. Experienced with Unreal Engine based
-            Game Development, Python based ERP, Javascript based dynamic web
-            projects, front-end & back-end development.
+            I’m a Game Developer with expertise in Unreal Engine, VR, and game
+            mechanics. As a Technical Lead, I guide teams to deliver optimized,
+            high-quality projects. My skills span from environment design to
+            C++/Blueprint scripting, with a focus on innovation and immersive
+            experiences.
           </p>
 
           <a download='' href={CV} className='button button--flex'>

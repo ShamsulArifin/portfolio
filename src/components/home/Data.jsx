@@ -55,10 +55,13 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className='home__subtitle'>Sofware Engineer ♦ Game Developer</h3>
+      <h3 className='home__subtitle'>
+        Crafting Immersive Worlds with Unreal Engine
+      </h3>
       <p className='home__description'>
-        I'm a softawre engineer based in Bangladesh, and I'm very passionate and
-        dedicated to my work.
+        I’m Shamsul Arifin, a Game Developer and Technical Lead specializing in
+        Unreal Engine and VR. I bring ideas to life with innovative design and
+        cutting-edge game development.
       </p>
       <a href='#contact' className='button button--flex'>
         Say Hello

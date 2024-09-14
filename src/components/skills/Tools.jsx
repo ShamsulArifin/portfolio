@@ -14,6 +14,14 @@ const Tools = () => {
               <h3 className='skills__name'>Git</h3>
             </div>
           </div>
+          
+          <div className='skills__data'>
+            <i class='bx bx-badge-check'></i>
+
+            <div>
+              <h3 className='skills__name'>Perforce</h3>
+            </div>
+          </div>
 
           <div className='skills__data'>
             <i class='bx bx-badge-check'></i>
@@ -53,6 +61,14 @@ const Tools = () => {
             <i class='bx bx-badge-check'></i>
 
             <div>
+              <h3 className='skills__name'>Subversion</h3>
+            </div>
+          </div>
+
+          <div className='skills__data'>
+            <i class='bx bx-badge-check'></i>
+
+            <div>
               <h3 className='skills__name'>Rider</h3>
             </div>
           </div>
@@ -61,7 +77,7 @@ const Tools = () => {
             <i class='bx bx-badge-check'></i>
 
             <div>
-              <h3 className='skills__name'>Google Colab</h3>
+              <h3 className='skills__name'>Visual Studio</h3>
             </div>
           </div>
 

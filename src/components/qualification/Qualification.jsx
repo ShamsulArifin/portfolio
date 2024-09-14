@@ -11,7 +11,7 @@ const Qualification = () => {
   return (
     <section className='qualification section'>
       <h2 className='section__title'>Qualification</h2>
-      <span className='section__subtitle'>My personel journey</span>
+      <span className='section__subtitle'>My personal journey</span>
 
       <div className='qualification__container container'>
         <div className='qualification__tabs'>
@@ -94,7 +94,7 @@ const Qualification = () => {
               </div>
               <div>
                 <h3 className='qualification__title'>
-                  Secondary School Cirtificate
+                  Secondary School Certificate
                 </h3>
                 <span className='qualification__subtitle'>
                   Science - Madrasa E Mohammadia Arabia
@@ -115,6 +115,25 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <div className='qualification__data'>
+              <div></div>
+              <div>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+              </div>
+              <div>
+                <h3 className='qualification__title'>
+                  Technical Lead (Unreal Engine VR)
+                </h3>
+                <span className='qualification__subtitle'>
+                  Vinacts - South Korea
+                </span>
+                <div className='qualification__calendar'>
+                  <i className='uil uil-calendar-alt'></i>MAY 2024 - Current
+                </div>
+              </div>
+            </div>
+
+            <div className='qualification__data'>
               <div>
                 <h3 className='qualification__title'>
                   Unreal Engine VR Game Developer
@@ -123,7 +142,7 @@ const Qualification = () => {
                   Vinacts - South Korea
                 </span>
                 <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>AUG 2023 - Current
+                  <i className='uil uil-calendar-alt'></i>AUG 2023 - MAY 2024
                 </div>
               </div>
 
