@@ -18,10 +18,20 @@ import Work17 from '../../assets/work17.png';
 import Work18 from '../../assets/work18.png';
 import Work19 from '../../assets/work19.jpg';
 import Work20 from '../../assets/work20.png';
+import Work21 from '../../assets/work21.png';
+import Work22 from '../../assets/work22.png';
+import Work23 from '../../assets/work23.png';
 
 export const projectsData = [
   {
     id: 1,
+    image: Work21,
+    title: 'Recurse',
+    category: 'game',
+    link: 'https://framework-interactive.itch.io/recurse',
+  },
+  {
+    id: 21,
     image: Work1,
     title: 'Project Atoms',
     category: 'game',
@@ -160,6 +170,21 @@ export const projectsData = [
     category: 'mechanics',
     link: 'https://www.youtube.com/watch?v=7eWw55jO21Y',
   },
+  {
+    id: 22,
+    image: Work23,
+    title: 'Tongbill',
+    category: 'others',
+    link: 'https://tongbill.vercel.app/',
+  },
+    {
+    id: 23,
+    image: Work22,
+    title: 'Gains',
+    category: 'others',
+    link: 'https://fitness-tracker-rouge.vercel.app/',
+  },
+  
 ];
 
 export const projectsNav = [
