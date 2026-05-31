@@ -14,8 +14,8 @@ import Work from './components/Work/Work';
 function App() {
   return (
     <>
-      <div id='interlaced'></div>
-      <div id='glare'></div>
+      {/* <div id='interlaced'></div> */}
+      {/* <div id='glare'></div> */}
       <Header />
 
       <main className='main'>
