@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './qualification.css';
+import React, { useState } from "react";
+import "./qualification.css";
 
 const Qualification = () => {
   const [toggleState, setToggleState] = useState(1);
@@ -9,222 +9,239 @@ const Qualification = () => {
   };
 
   return (
-    <section className='qualification section'>
-      <h2 className='section__title'>Qualification</h2>
-      <span className='section__subtitle'>My personal journey</span>
+    <section className="qualification section">
+      <h2 className="section__title">Qualification</h2>
+      <span className="section__subtitle">My personal journey</span>
 
-      <div className='qualification__container container'>
-        <div className='qualification__tabs'>
+      <div className="qualification__container container">
+        <div className="qualification__tabs">
           <div
             className={
               toggleState === 1
-                ? 'qualification__button qualification__active button--flex'
-                : 'qualification__button button--flex'
+                ? "qualification__button qualification__active button--flex"
+                : "qualification__button button--flex"
             }
             onClick={() => toggleTab(1)}
           >
-            <i className='uil uil-graduation-cap qualification__icon'></i>
-            Education
+            <i className="uil uil-briefcase-alt qualification__icon"></i>
+            Experience
           </div>
-
           <div
             className={
               toggleState === 2
-                ? 'qualification__button qualification__active button--flex'
-                : 'qualification__button button--flex'
+                ? "qualification__button qualification__active button--flex"
+                : "qualification__button button--flex"
             }
             onClick={() => toggleTab(2)}
           >
-            <i className='uil uil-briefcase-alt qualification__icon'></i>
-            Experience
+            <i className="uil uil-graduation-cap qualification__icon"></i>
+            Education
           </div>
         </div>
 
-        <div className='qualification__sections'>
+        <div className="qualification__sections">
           <div
             className={
               toggleState === 1
-                ? 'qualification__content qualification__content-active'
-                : 'qualification__content'
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
             }
             onClick={() => toggleTab(1)}
           >
-            <div className='qualification__data'>
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Unreal Engine Game Developer
+                </h3>
+                <span className="qualification__subtitle">
+                  Attrito M7 Productions Ltd. - Dhaka
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>FEB 2026 - Current
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div></div>
               <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className='qualification__title'>Bachelor</h3>
-                <span className='qualification__subtitle'>
-                  Bsc. In Computer Science & Engineering - Manarat International
-                  University
+                <h3 className="qualification__title">
+                  Technical Lead (Unreal Engine VR)
+                </h3>
+                <span className="qualification__subtitle">
+                  Vinacts - South Korea
                 </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2021
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>MAY 2024 - SEP 2025
                 </div>
               </div>
             </div>
 
-            <div className='qualification__data'>
+            <div className="qualification__data">
               <div>
-                <h3 className='qualification__title'>
-                  Higher Secondary Certificate
+                <h3 className="qualification__title">
+                  Unreal Engine VR Game Developer
                 </h3>
-                <span className='qualification__subtitle'>
-                  Science - Quality Education College
+                <span className="qualification__subtitle">
+                  Vinacts - South Korea
                 </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2015
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>AUG 2023 - MAY 2024
                 </div>
               </div>
 
               <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
 
-            <div className='qualification__data'>
+            <div className="qualification__data">
               <div></div>
               <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className='qualification__title'>
-                  Secondary School Certificate
+                <h3 className="qualification__title">
+                  Junior Software Engineer
                 </h3>
-                <span className='qualification__subtitle'>
-                  Science - Madrasa E Mohammadia Arabia
+                <span className="qualification__subtitle">
+                  Renssoft Solutions Ltd - Dhaka
                 </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>2012
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>JUN 2022 - JUN 2023
                 </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Unreal Engine Developer
+                </h3>
+                <span className="qualification__subtitle">
+                  Opus Technology Ltd - Dhaka
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>NOV 2021 - APR 2022
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
+                  Unreal Engine Developer (Remote)
+                </h3>
+                <span className="qualification__subtitle">
+                  Kaleido Soft - Croatia
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>JAN 2021 - NOV 2021
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Junior Python Programmer
+                </h3>
+                <span className="qualification__subtitle">
+                  Crystal Technology Bangladesh Ltd - Dhaka
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>APR 2020 - NOV 2021
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
-
           <div
             className={
               toggleState === 2
-                ? 'qualification__content qualification__content-active'
-                : 'qualification__content'
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
             }
             onClick={() => toggleTab(2)}
           >
-            <div className='qualification__data'>
+            <div className="qualification__data">
               <div></div>
               <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className='qualification__title'>
-                  Technical Lead (Unreal Engine VR)
-                </h3>
-                <span className='qualification__subtitle'>
-                  Vinacts - South Korea
+                <h3 className="qualification__title">Bachelor</h3>
+                <span className="qualification__subtitle">
+                  Bsc. In Computer Science & Engineering - Manarat International
+                  University
                 </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>MAY 2024 - Current
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2021
                 </div>
               </div>
             </div>
 
-            <div className='qualification__data'>
+            <div className="qualification__data">
               <div>
-                <h3 className='qualification__title'>
-                  Unreal Engine VR Game Developer
+                <h3 className="qualification__title">
+                  Higher Secondary Certificate
                 </h3>
-                <span className='qualification__subtitle'>
-                  Vinacts - South Korea
+                <span className="qualification__subtitle">
+                  Science - Quality Education College
                 </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>AUG 2023 - MAY 2024
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2015
                 </div>
               </div>
 
               <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
 
-            <div className='qualification__data'>
+            <div className="qualification__data">
               <div></div>
               <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className='qualification__title'>
-                  Junior Software Engineer
+                <h3 className="qualification__title">
+                  Secondary School Certificate
                 </h3>
-                <span className='qualification__subtitle'>
-                  Renssoft Solutions Ltd - Dhaka
+                <span className="qualification__subtitle">
+                  Science - Madrasa E Mohammadia Arabia
                 </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>JUN 2022 - JUN 2023
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i>2012
                 </div>
-              </div>
-            </div>
-
-            <div className='qualification__data'>
-              <div>
-                <h3 className='qualification__title'>
-                  Unreal Engine Developer
-                </h3>
-                <span className='qualification__subtitle'>
-                  Opus Technology Ltd - Dhaka
-                </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>NOV 2021 - APR 2022
-                </div>
-              </div>
-
-              <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
-              </div>
-            </div>
-
-            <div className='qualification__data'>
-              <div></div>
-              <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
-              </div>
-              <div>
-                <h3 className='qualification__title'>
-                  Unreal Engine Developer (Remote)
-                </h3>
-                <span className='qualification__subtitle'>
-                  Kaleido Soft - Croatia
-                </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>JAN 2021 - NOV 2021
-                </div>
-              </div>
-            </div>
-
-            <div className='qualification__data'>
-              <div>
-                <h3 className='qualification__title'>
-                  Junior Python Programmer
-                </h3>
-                <span className='qualification__subtitle'>
-                  Crystal Technology Bangladesh Ltd - Dhaka
-                </span>
-                <div className='qualification__calendar'>
-                  <i className='uil uil-calendar-alt'></i>APR 2020 - NOV 2021
-                </div>
-              </div>
-
-              <div>
-                <span className='qualification__rounder'></span>
-                <span className='qualification__line'></span>
               </div>
             </div>
           </div>
